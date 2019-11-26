@@ -1,0 +1,4 @@
+all:
+	nvcc --gpu-architecture=compute_61 --device-c main.c functions.cu
+	nvcc --gpu-architecture=compute_61 main.o functions.o
+

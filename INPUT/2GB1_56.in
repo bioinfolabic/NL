@@ -1,0 +1,21 @@
+/*Input file*/
+sequence = ABBBAAABABBABABBBBBAABAABABBAABBBABBBAABABABBBBABBBABABB
+ProtLen = 56
+LV = 112
+stepLimit = 3000
+temperature = 0.1
+savepathways = y
+pathwaysstep = 3000
+
+/*
+sequence                      : hydrophobic/polar sequence
+ProtLen                       : protein size, number of amino acids
+LV 	 	: lenght of the 2D or 3D box
+stepLimit 		: max number of steps
+temperature 	               : temperature
+
+* Pathway output
+savepathways = y	: enable the function that save amino acids coordinates in txt files. 
+pathwaysstep = 30000	: steps between generations of txt coordinates files.
+
+*/
